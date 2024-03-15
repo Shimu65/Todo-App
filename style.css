@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.408),rgba(0, 0, 0, 0.523)), url("images/julius-drost-pYAvBZvplOM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.todo-app{
+    background-color: rgba(0, 0, 0, 0.579);
+    color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+    overflow: auto;
+    box-shadow: 2px 2px 5px #8395a7,-2px -2px 5px #8395a7;
+}
+.todo-app h1{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    text-shadow: 3px 3px 5px blue;
+    font-family: cursive;
+}
+ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row input{
+    padding: 15px;
+    border-radius: 10px;
+    flex-grow: 1;
+    outline: none;
+    transition: 0.4s;
+}
+.row input:hover{
+   background-color: #a40160;
+   outline: none;
+}
+.row button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #a78396;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.row button:hover{
+    background-color: #a401a1;
+    
+}
+ul li{
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.31);
+    border-radius: 10px;
+    transition:0.4s ;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+ul li:hover{
+    background-color:#9f01a4; 
+}
+ul li span{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+/* footer text  */
+.footer-text{
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: cursive;
+
+}
+.footer-text span b{
+    color: #c8d6e5;
+    text-shadow:2px 2px 5px rgb(17, 0, 255) ;
+}
+.footer-text span i{
+    color:#e818be ;
+}
+
+
+
+   
+
